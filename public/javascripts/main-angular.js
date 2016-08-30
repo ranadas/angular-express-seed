@@ -26,3 +26,11 @@ app.controller("mainController", function ($scope, $log) {
     $log.debug("in main controller with" + JSON.stringify($scope.data));
 });
 
+
+
+//var mainController = function ($scope, $http, $interval, $log) {
+    //'use strict';
+//
+
+//add a controller by add to the module variable.
+//app.controller("mainController", ["$scope", "$http", "$interval", "$log", mainController]);
