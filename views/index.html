@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="AngExpApp">
 <head>
     <meta charset="UTF-8">
     <title>Index page</title>
+    <script type="application/javascript" src="/bower_components/angular/angular.js"></script>
 </head>
 <body>
-    Hello world
+
+<div ng-controller="mainController">
+    <i>{{data.message}}</i>
+</div>
+Hello world
+
+<script type="application/javascript" src="/public/javascripts/main-angular.js"></script>
+
 </body>
 </html>
